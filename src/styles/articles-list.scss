@@ -1,0 +1,16 @@
+@import "./vars.scss";
+
+.articles-list-container {
+    .articles-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.results-container {
+    margin-top: 40px;
+    margin-bottom: 45px;
+    .results-text {
+        @extend %textTitles;
+        border-bottom: 1px solid $borderColor;
+    }
+}

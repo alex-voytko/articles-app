@@ -1,0 +1,17 @@
+$mainTextColor: #363636;
+$borderColor: #eaeaea;
+
+// Templates:
+%textTitles {
+    color: $mainTextColor;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+}
+%arrowSvg {
+    display: inline-block;
+    content: "";
+    width: 12px;
+    height: 10px;
+}
